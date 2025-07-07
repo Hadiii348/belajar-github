@@ -1,5 +1,49 @@
-body {
-    background: #f2f2f2;
-    color: #222;
-    font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Belajar Git untuk Web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 40px;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #666;
+    }
+
+    a {
+      display: inline-block;
+      margin: 4px;
+      text-decoration: none;
+      color: #0066cc;
+      font-size: 0.95em;
+    }
+
+    a:hover {
+      color: white;
+      background-color: #0066cc;
+      padding: 3px 8px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Halo, Git!</h1>
+  <p>Update pertama.</p>
+
+  <!-- Tautan halaman-halaman -->
+  <a href="html/audio.html">Halaman Audio</a>
+  <a href="html/api.html">Halaman API</a>
+  <a href="html/attributes.html">Halaman Attributes</a>
+  <!-- Tambahkan link lainnya seperti sebelumnya -->
+</body>
+</html>
