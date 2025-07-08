@@ -1,0 +1,11 @@
+#grad {
+  background-image: linear-gradient(red, yellow);
+}
+
+#grad {
+  background-image: radial-gradient(red, yellow, green);
+}
+
+#grad {
+  background-image: conic-gradient(red, yellow, green);
+}

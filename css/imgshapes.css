@@ -1,0 +1,14 @@
+img {
+  clip-path: circle(50%);
+}
+img {
+  clip-path: circle(50% at right);
+}
+img {
+  float: left;
+  clip-path: circle(40%);
+  shape-outside: circle(45%);
+}
+img {
+  clip-path: ellipse(50% 35%);
+}

@@ -1,0 +1,12 @@
+/* use this CSS if the browser does not support display: flex */
+.container {
+  float: left;
+  width: 100%;
+}
+
+/* use this CSS if the browser supports display: flex */
+@supports (display: flex) {
+  .container {
+    display: flex;
+  }
+}

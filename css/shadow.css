@@ -1,0 +1,23 @@
+h1 {
+  text-shadow: 2px 2px;
+}
+
+h1 {
+  text-shadow: 2px 2px red;
+}
+
+h1 {
+  text-shadow: 2px 2px 5px red;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h1 {
+  text-shadow: 0 0 3px #FF0000;
+}
+div {
+  box-shadow: 10px 10px 5px lightblue;
+}

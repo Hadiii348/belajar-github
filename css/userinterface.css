@@ -1,0 +1,12 @@
+div {
+  resize: horizontal;
+  overflow: auto;
+}
+
+div {
+  resize: vertical;
+  overflow: auto;
+}div {
+  resize: both;
+  overflow: auto;
+}
