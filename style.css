@@ -1,30 +1,62 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Gaya umum body */
 body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 40px;
-    }
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  color: #333;
+  padding: 30px;
+}
 
-    h1 {
-      color: #333;
-      font-size: 2.5em;
-    }
+/* Judul halaman */
+h1 {
+  text-align: center;
+  color: #fff;
+  background-color: #ff6f61;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
 
-    p {
-      font-size: 1.2em;
-      color: #666;
-    }
+/* Paragraf pembuka */
+p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #444;
+}
 
-    a {
-      display: inline-block;
-      margin: 4px;
-      text-decoration: none;
-      color: #0066cc;
-      font-size: 0.95em;
-    }
+/* Gaya untuk semua link */
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  padding: 12px 18px;
+  margin: 6px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
 
-    a:hover {
-      color: white;
-      background-color: #0066cc;
-      padding: 3px 8px;
-      border-radius: 5px;
-    }
+/* Efek hover */
+a:hover {
+  background: linear-gradient(to right, #ff512f, #dd2476);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive tampilan */
+@media (max-width: 600px) {
+  a {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    text-align: center;
+  }
+}
